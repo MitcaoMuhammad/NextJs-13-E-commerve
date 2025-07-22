@@ -22,6 +22,10 @@ const Navbar = () => {
 						My bag
 					</button>
 				</Link>
+				\
+				<Link href={'/contacts'} className='mr-5 hover:text-gray-900 '>
+					Contacts
+				</Link>
 			</div>
 		</header>
 	)
